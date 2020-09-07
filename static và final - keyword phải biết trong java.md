@@ -11,7 +11,12 @@ Nói ngắn gọn từ khóa static giúp ta `quản lý bộ nhớ tốt` và `
 
 Ví dụ thế này cho dễ hiểu: Một đối tượng hình tròn có thông tin về bán kính, phương thức tính diện tích, số `pi` cũng là 1 field ở class ấy. Vậy khi tính toán diện tích cho nhiều đối tượng hình tròn, ta luôn dùng một giá trị `pi`. Khi ấy, biến `pi` khi có từ khóa `static` đi kèm nó sẽ được cấp phát vùng nhớ một lần duy nhất, sau đó cách đối lượng đường tròn khác được tạo, sử dụng tiếp cái value `pi` ở `class` đường tròn đầu tiên. Nếu chúng ta không sử dụng từ khóa `static` thì hiểu nhiên, mỗi lần khởi tạo đối tượng đường tròn thì đối tượng `pi` cũng được cấp phát mới, ví dụ tao tạo 100 hình tròn khác nhau, mà giá trị `pi` cũng được cấp phát 100 lần, trong khi giá trị của nó có thay đổi gì đâu, Dư quá thừa quá đúng không nè. Chính vì vậy đây là một trong những cái lợi của từ khóa `static` nè. Chắc là mọi người đã hiểu đúng không nà!!!!
 
+Một số câu hỏi liên quan?
+
+> 
 
 
 > ### `final`
+
+
 
